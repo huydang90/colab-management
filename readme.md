@@ -22,7 +22,7 @@
 
 ### Free GPU RAM Upgrade 
 
-Users is automatically alloted 12GB of RAM on Colab. However, this memory space is often difficult to work with for large dataset. To upgrade RAM resources to 25GB, we can execute the following code block: 
+Users are automatically alloted 12GB of RAM on Colab. However, this memory space is often difficult to work with for large dataset. To upgrade RAM resources to 25GB, we can execute the following code block: 
 
 ```python
 a = []
