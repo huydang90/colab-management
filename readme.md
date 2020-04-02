@@ -71,7 +71,7 @@ When working with large dataset with hundreds of thousands of files stored on GD
 
 In this way, Colab can work with the dataset directly in its native environment, without having to reach back to Drive to access the file, which will cause major read time issue and IO error. 
 
-```python
+```console
 import os
 !cp GDrive_path_to_zip_file Colab_path
 os.chdir(Colab_path)
