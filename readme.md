@@ -45,7 +45,7 @@ document.querySelector("colab-toolbar-button").click()
 }setInterval(ClickConnect,60000)
 ```
 
-This click Enter. Wait for a minute and see if "Working" is printed on the console before exiting. This code will simulate user interaction with the kernel every 60 seconds to prevent disconnection. 
+Then click Enter. Wait for a minute and see if "Working" is printed on the console before exiting. This code will simulate user interaction with the kernel every 60 seconds to prevent disconnection. 
 
 ## Connect to GDrive 
 
