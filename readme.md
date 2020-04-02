@@ -3,6 +3,8 @@
 |
 <b><a href="#prevent-disconnection">Prevent Disconnection</a></b>
 |
+<b><a href="#save-model-checkpoints">Save Model Checkpoints</a></b>
+|
 <b><a href="#connect-to-gdrive">Connect to GDrive</a></b>
 |
 <b><a href="#import-custom-modules">Import Custom Modules</a></b>
