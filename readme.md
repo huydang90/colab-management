@@ -47,6 +47,58 @@ document.querySelector("colab-toolbar-button").click()
 
 Then click Enter. Wait for a minute and see if "Working" is printed on the console before exiting. This code will simulate user interaction with the kernel every 60 seconds to prevent disconnection. 
 
+## Save Model Checkpoints
+
+It is good practice to save model weights as it trains to prevent having to start from scratch when Colab runtime runtime restarts during training. The following code helps to create a collection of checkpoint files that updates at the end of each epoch, saving best weights based on validation accuracy. 
+
+More details for [TensorFlow](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/keras/save_and_load.ipynb#scrollTo=S_FA-ZvxuXQV). 
+
+For TensorFlow:
+
+- Save model checkpoints
+
+```python
+
+import os 
+checkpoint_path = "training_1/cp.ckpt" 
+
+checkpoint_dir = os.path.dirname(checkpoint_path)
+
+ # Create checkpoint  callback 
+cp_callback =ModelCheckpoint(checkpoint_path, 
+     monitor='val_acc',save_best_only=True,save_weights_only=True,verbose=1)
+
+network_fit = myModel.fit(x, y, batch_size=25, epochs=20,
+                                  ,callbacks = [cp_callback] )
+```
+
+- Reload model with saved checkpoint weights:
+
+```python
+
+myModel.load_weights(checkpoint_path)
+```
+
+For Pytorch: 
+
+- Save model checkpoints:
+
+```python
+
+model_save_name = 'classifier.pt'
+path = f"/content/gdrive/My Drive/{model_save_name}" 
+torch.save(model.state_dict(), path)
+```
+
+- Reload model with saved checkpoint weights:
+
+```python
+
+model_save_name = 'classifier.pt'
+path = F"/content/gdrive/My Drive/{model_save_name}"
+model.load_state_dict(torch.load(path))
+```
+
 ## Connect to GDrive 
 
 ```python
