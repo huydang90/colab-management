@@ -97,7 +97,7 @@ torch.save(model.state_dict(), path)
 ```python
 
 model_save_name = 'classifier.pt'
-path = F"/content/gdrive/My Drive/{model_save_name}"
+path = f"/content/gdrive/My Drive/{model_save_name}"
 model.load_state_dict(torch.load(path))
 ```
 
