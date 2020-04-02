@@ -7,15 +7,13 @@
 |
 <b><a href="#modelling">Import Custom Modules</a></b>
 |
-<b><a href="#results-and-interpretation">Results and Interpretation</a></b>
+<b><a href="#results-and-interpretation">Work With Large Data</a></b>
 |
-<b><a href="#analysis">Analysis</a></b>
+<b><a href="#analysis">Dump Data</a></b>
 |
-<b><a href="#implications">implications</a></b>
+<b><a href="#implications">Display Image Inline</a></b>
 |
-<b><a href="#potential-issues-and-model-improvement">Potential issues and model improvement</a></b>
-|
-<b><a href="#acknowledgements">Acknowledgements</a></b>
+<b><a href="#potential-issues-and-model-improvement">Download File</a></b>
 </p>
 
 # Google Colaboratory Management Routine 
@@ -67,7 +65,7 @@ sys.path.insert(0, module_path)
 import your_module
 ```
 
-## Work Large Data
+## Work With Large Data
 
 When working with large dataset with hundreds of thousands of files stored on GDrive, "[Errno 5] Input/output error" will often occur as GDrive operations time out due to the large number of files that it has to supply to Colab. To resolve this issue, the best way is to upload a zipped file with all the data that you need onto GDrive, connect Colab to GDrive and unloading that zipped file into the local environment of Colab. 
 
