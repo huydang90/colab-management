@@ -51,7 +51,7 @@ Then click Enter. Wait for a minute and see if "Working" is printed on the conso
 
 ## Save Model Checkpoints
 
-It is good practice to save model weights as it trains to prevent having to start from scratch when Colab runtime runtime restarts during training. The following code helps to create a collection of checkpoint files that updates at the end of each epoch, saving best weights based on validation accuracy. 
+It is good practice to save model weights as it trains to prevent having to start from scratch when Colab runtime restarts during training. The following code helps to create a collection of checkpoint files that updates at the end of each epoch, saving best weights based on validation accuracy. 
 
 More details for [TensorFlow](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/keras/save_and_load.ipynb#scrollTo=S_FA-ZvxuXQV). 
 
