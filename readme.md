@@ -1,19 +1,19 @@
 <p align="center">
-<b><a href="#hypothesis">Free GPU RAM Upgrade</a></b>
+<b><a href="#free-gpu-ram-upgrade">Free GPU RAM Upgrade</a></b>
 |
-<b><a href="#data-collection">Prevent Disconnection</a></b>
+<b><a href="#prevent-disconnection">Prevent Disconnection</a></b>
 |
-<b><a href="#data-processing">Connect to GDrive</a></b>
+<b><a href="#connect-to-gdrive">Connect to GDrive</a></b>
 |
-<b><a href="#modelling">Import Custom Modules</a></b>
+<b><a href="#import-custom-modules">Import Custom Modules</a></b>
 |
-<b><a href="#results-and-interpretation">Work With Large Data</a></b>
+<b><a href="#work-with-large-data">Work With Large Data</a></b>
 |
-<b><a href="#analysis">Dump Data</a></b>
+<b><a href="#dump-data">Dump Data</a></b>
 |
-<b><a href="#implications">Display Image Inline</a></b>
+<b><a href="#display-image-inline">Display Image Inline</a></b>
 |
-<b><a href="#potential-issues-and-model-improvement">Download File</a></b>
+<b><a href="#download-file">Download File</a></b>
 </p>
 
 # Google Colaboratory Management Routine 
